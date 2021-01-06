@@ -1,0 +1,38 @@
+
+header {
+     background-color:#f37520;
+}
+header > .container {
+    height: 68px;
+}
+section nav {
+    background-color:#000;
+    color: #f37520;
+    margin: 5px;
+     padding: 14px;
+}
+section li {
+    padding: 10px;
+}
+.section-black {
+ background-color: #000;
+ color: #F6AE2D;
+ margin:5px 0px 9px;
+}
+
+footer {
+    background-color:#000;
+     color: #f37520;
+}
+@media  (min-width: 320px) and (max-width: 768px) {
+    header nav {
+        display: none;
+    } 
+    header img {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+
+    }
+}
+
